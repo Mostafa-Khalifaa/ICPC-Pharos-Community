@@ -1,0 +1,160 @@
+.TP_Body {
+    background-color: #8CB3E3;
+    background-image: linear-gradient(#8CB3E3,
+            white,
+            white,
+            white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 1100px;
+}
+
+.TP_Tiltle {
+    font-size: 50px;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-left: #1363C6;
+    border-right: #1363C6;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-width: 1px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.TP_Page {
+    min-width: 70%;
+    min-height: 1000px;
+    background-color: #F4F7FE;
+    border: #dbdbdb;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0px -2px 30px #7295c0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 10px;
+    border-radius: 10px;
+}
+
+
+
+.TP_Card {
+    width: 90%;
+    height: 400px;
+    background-color: rgb(230, 227, 227);
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px #828282;
+    margin-bottom: 3%;
+}
+
+.TP_Card_Upper {
+    height: 60%;
+    width: 100%;
+    background-color: #1363C6;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+
+}
+
+.TP_Card_Title {/*///////////////////////////////////////////////////////////////*/
+    color: white;
+    border: none;
+    background-color: rgb(230, 227, 227, 0);
+    font-size: 40px;
+    margin: 5%;
+    margin-bottom: 3%;
+}
+
+.TP_Card_Lower {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+    font-size: 20px;
+}
+
+.TP_Card_Enroll {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.TP_Card_Button_F {/*///////////////////////////////////////////////////////////////*/
+    height: 60px;
+    width: 40%;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background: #1363C6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    text-wrap: wrap;
+}
+.TP_Card_Button {/*///////////////////////////////////////////////////////////////*/
+    height: 90%;
+    width: 90%;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background: #1363C6;
+    font-size: 20px;
+}
+
+.TP_Card_Button:hover {
+    cursor: pointer;
+}
+
+.TP_Card_Info {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.TP_Card_Topics,
+.TP_Card_Problems {
+    height: 80%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.TP_Card_Info_text {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    background-color: rgb(230, 227, 227,0);
+    height: 40px;
+    width: 80%;
+    text-align: center;
+    font-size: 30px;
+}
+@media screen and (max-width:1000px) {
+    .TP_Page {
+        width: 100%;
+    }
+
+    .TP_Body {
+        background-image: none;
+    }
+}

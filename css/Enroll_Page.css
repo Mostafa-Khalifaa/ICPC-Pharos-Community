@@ -1,0 +1,38 @@
+#body{
+    background-color: white;
+}
+#icpcLogo{
+    margin: 30px;
+    height: 120px;
+    width:  95px;
+}
+#fram{
+    height: 550px;
+    width:  500px;
+    background-color: #1363C6;
+    border-radius: 32px;
+    box-shadow: 0 50px 40px #9d9d9d;
+}
+#para1{
+    padding: 40px;
+    color: white;
+}
+#inputs{
+    width:  250px;
+    height: 30px;
+    border-radius: 14px;
+    border-color: rgb(255, 255, 255);
+    margin: 5px;
+}
+#button1{
+    margin: 10px;
+    height: 30px;
+    width: 180px;
+    background-color: white;
+    color: #1363C6;
+    border-radius: 16px;
+}
+#h1{
+    margin: 15px;
+    color: #1363C6;
+}

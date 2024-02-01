@@ -1,0 +1,97 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: #f4f7fe;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.title-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.topics {
+    margin-bottom: 20px;
+    width: 75%;
+    min-height: fit-content;
+    transform: translateY(50px);
+    display: flex;
+    flex-direction: column;
+}
+
+.topic-list .topic {
+    margin-bottom: 10px;
+}
+
+.topic input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    background: white;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.button-group button {
+    padding: 15px;
+    background-color: #1363c6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 310px;
+}
+
+.button-group button:last-child {
+    margin-left: 10px;
+}
+
+.button-group button:hover {
+    opacity: 0.8;
+}
+
+.creator-details {
+    background-color: #8cb3e3;
+    padding: 10px;
+    color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: 20px;
+    align-self: flex-start;
+    margin-top: -250px;
+}
+
+
+.creator-details h2 {
+    margin-top: 0;
+}
+
+.creator-details .detail input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: white;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}

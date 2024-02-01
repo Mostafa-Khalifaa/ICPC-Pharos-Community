@@ -1,0 +1,206 @@
+/* styles.css */
+
+/* Global Reset */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Welcome Section Styles */
+  .welcome-section {
+    /* Styling for the welcome section */
+    background-color: #1363C6;
+    color: white;
+    padding: 200px 20px; /* Top-bottom padding: 200px, Left-right padding: 20px */
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #wellcome {
+    font-size: 40px; /* Font size for the welcome heading */
+    margin-left: 70px; /* Left margin for the welcome heading */
+  }
+  #massge {
+    font-size: 20px; /* Font size for the message */
+  }
+  
+  .welcome-content {
+    flex: 1; /* Flex for welcome content to take available space */
+    text-align: left; /* Left alignment for welcome content */
+    margin-left: 250px; /* Left margin for welcome content */
+  }
+  
+  .home-logo {
+    /* Styles for logo positioning */
+    flex: 1; /* Flex for logo to take available space */
+    text-align: right; /* Right alignment for logo */
+    display: flex; /* Display as flex for flexibility */
+    height: 300px; /* Height for the logo */
+  }
+  
+  /* ICPC Race Section Styles */
+  .icpc-race-section {
+    /* Styling for the ICPC race section */
+    background-color: #F4F7FE;
+    color: black;
+    padding: 100px 20px; /* Top-bottom padding: 100px, Left-right padding: 20px */
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  /* Styles for ICPC race content */
+  .icpc-race-content {
+    flex: 1; /* Flex for content to take available space */
+    margin-right: 20px; /* Right margin for content */
+    text-align: left; /* Left alignment for content */
+  }
+  /* Styles for ICPC race image */
+  .icpc-race-image {
+    flex: 1; /* Flex for image to take available space */
+    text-align: right; /* Right alignment for image */
+    margin-right: 100px; /* Right margin for image */
+  }
+  /* Styles for the title and message of the ICPC race section */
+  #about-icpc-title {
+    font-size: 40px; /* Font size for the title */
+    margin-left: 200px; /* Left margin for the title */
+  }
+  #about-icpc-massge {
+    font-size: 25px; /* Font size for the message */
+    margin-left: 50px; /* Left margin for the message */
+  }
+  
+  /* Unlocking Success Section Styles */
+  .unlocking-success-section {
+    /* Styling for the unlocking success section */
+    background-color: #1363C6;
+    color: white;
+    padding: 100px 20px; /* Top-bottom padding: 100px, Left-right padding: 20px */
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  /* Styles for unlocking success content */
+  .unlocking-success-content {
+    flex: 1; /* Flex for content to take available space */
+    margin-right: 20px; /* Right margin for content */
+    text-align: left; /* Left alignment for content */
+  }
+  /* Styles for unlocking success image */
+  .unlocking-success-image {
+    flex: 1; /* Flex for image to take available space */
+    text-align: right; /* Right alignment for image */
+    margin-right: 100px; /* Right margin for image */
+  }
+  /* Styles for the title and message of the unlocking success section */
+  #unlocking-success-title {
+    font-size: 30px; /* Font size for the title */
+  }
+  #unlocking-success-massge {
+    font-size: 20px; /* Font size for the message */
+  }
+  
+  /* Problem Solving Section Styles */
+  .problem-solving-section {
+    /* Styling for the problem solving section */
+    background-color: #F4F7FE;
+    color: black;
+    padding: 100px 20px; /* Top-bottom padding: 100px, Left-right padding: 20px */
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  /* Styles for problem solving content */
+  .problem-solving-content {
+    flex: 1; /* Flex for content to take available space */
+    margin-right: 20px; /* Right margin for content */
+    text-align: left; /* Left alignment for content */
+  }
+  /* Styles for the title and message of the problem solving section */
+  #problem-solving-content-title {
+    font-size: 40px; /* Font size for the title */
+    margin-left: 90px; /* Left margin for the title */
+  }
+  #problem-solving-content-massge {
+    font-size: 25px; /* Font size for the message */
+  }
+  
+  /* Rounded Button Styles */
+  .rounded-button {
+    background-color: #1363C6;
+    color: white;
+    padding: 10px 200px; /* Padding for the button */
+    border-radius: 20px; /* Border radius for rounded corners */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 20px; /* Top margin for the button*/
+    margin-left: 520px;  /* Top margin for the button*/
+  
+  }
+  
+  /* Media query for smaller screens */
+/* Media query for smaller screens */
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    /* Welcome section adjustments */
+    .welcome-section {
+      padding: 150px 10px; /* Decreased top-bottom padding for smaller screens */
+    }
+    #welcome {
+      font-size: 30px; /* Decreased font size for the welcome heading */
+      margin-left: 20px; /* Adjusted left margin for the welcome heading */
+    }
+    #message {
+      font-size: 16px; /* Reduced font size for the welcome message */
+    }
+    .welcome-content {
+      margin-left: 50px; /* Adjusted left margin for the welcome content */
+    }
+    .logo {
+      height: 300px; /* Reduced height for the logo on smaller screens */
+    }
+  
+    /* ICPC race section adjustments */
+    #about-icpc-title {
+      font-size: 30px; /* Decreased font size for the ICPC title */
+      margin-left: 100px; /* Adjusted left margin for the ICPC title */
+    }
+    #about-icpc-message {
+      font-size: 20px; /* Reduced font size for the ICPC message */
+      margin-left: 30px; /* Adjusted left margin for the ICPC message */
+    }
+  
+    /* Unlocking success section adjustments */
+    #unlocking-success-title {
+      font-size: 25px; /* Decreased font size for the success title */
+    }
+    #unlocking-success-message {
+      font-size: 18px; /* Reduced font size for the success message */
+    }
+  
+    /* Problem-solving section adjustments */
+    #problem-solving-content-title {
+      font-size: 30px; /* Decreased font size for the problem-solving title */
+      margin-left: 60px; /* Adjusted left margin for the problem-solving title */
+    }
+    #problem-solving-content-message {
+      font-size: 20px; /* Reduced font size for the problem-solving message */
+    }
+    .rounded-button {
+      padding: 10px 100px; /* Adjusted padding for the rounded button */
+      margin-left: 270px; /* Adjusted left margin for the rounded button */
+    }
+  }
+  

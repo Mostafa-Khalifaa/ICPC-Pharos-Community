@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav {
+    background: #1363C6;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a {
+    color: #F4F7FE;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar ul {
+    display: flex;
+}
+
+.hamburger {
+    display: none;
+}
+
+.nav-bar ul li a {
+
+    padding: 10px 25px;
+    font: size 20px;
+    margin: 0 10px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.nav-bar ul li a:hover {
+    color: black;
+    background: #F4F7FE;
+}
+
+.nav-bar ul li a.active {
+    color: black;
+    background: #F4F7FE;
+}
+
+@media only screen and (max-width: 1320px) {
+    nav {
+        padding: 0 50px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    nav {
+        padding: 0 30px;
+        font-size: 10px;
+    }
+}
+
+/* ... Your previous CSS code ... */
+
+@media only screen and (max-width: 900px) {
+    nav {
+        font-size: 20px;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger .line {
+        width: 30px;
+        height: 3px;
+        background: #F4F7FE;
+        margin: 6px 0;
+    }
+
+    /* Update the styles to properly display the list */
+    .nav-bar.active {
+        height: auto;
+        overflow: visible;
+        transition: 1s;
+        /* Add a transition for smoother appearance */
+    }
+
+    .nav-bar {
+        height: 0;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: #1363C6;
+        transition: 1s;
+        /* Add transition for smoother animation */
+        overflow: hidden;
+    }
+
+    .nav-bar ul {
+        display: block;
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+        opacity: 1;
+        transition: 1s;
+        /* Add transition for smoother appearance */
+    }
+
+    .nav-bar ul li a {
+        margin-bottom: 12px;
+        display: block;
+        padding: 10px 0;
+        color: #F4F7FE;
+        transition: 1s;
+        /* Add transitions for color change */
+    }
+
+    .nav-bar ul li a:hover {
+        color: black;
+        background: #F4F7FE;
+    }
+}
